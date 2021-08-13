@@ -32,7 +32,7 @@ function Character(info) {
             {charInfo.map((data, idx) => {
                 return (
                     <Info key={idx}>
-                        Name: {data.name}<br /> Gender: {data.gender} <br /> Birth Year: {data.birth_year}<br /> <br />Films: {data.films.join(' - ')}
+                        Name: {data.name} <br /> Gender: {data.gender} <br /> Birth Year: {data.birth_year} <br /><br /> Films: {data.films.join(' - ')}
                     </Info>
                 );
             })}
